@@ -1,0 +1,24 @@
+
+
+.headerText{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+.subHeaderText{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+/*Color palette subject to change. Warm, earthy tones. Early ideas:
+    #D9BF77, #A45A3D, #6B4226, #C4B6A6, and #E8DAB2
+*/
+.fullscreenContainer{
+    flex: 1;
+    height: 100vh;
+    width: 100%;
+    background-color:#c4b6a6;
+    color: #6b4226;
+}
