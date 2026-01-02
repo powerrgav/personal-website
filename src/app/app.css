@@ -35,8 +35,23 @@
     Styling for main image div
 */
 .mainImageDiv{
-    display: flex;
-    justify-content: center;
+    display:inline-flexblock;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+.meInParis{
+    float:left;
+   height: 40%;
+   width: 40%; 
+}
+
+/*
+    Styling for bio div
+*/
+.bioDiv{
+    float: left;
+    margin-top: 15%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
 }
@@ -46,7 +61,7 @@
 */
 .fullscreenContainer{
     flex: 1;
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     background-color:#FFFFE3;
     color:#4A4A4A;

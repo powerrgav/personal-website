@@ -31,7 +31,12 @@ import { Main } from './main/main';
               </div><!--End links div-->
 
               <div id="mainImage"><!--Begin main image div-->
-                  <a href="https://youtube.com" class="mainImageDiv">Placeholder</a>
+                  <img src="IMG_6322.jpeg" class="meInParis">
+                  
+                  <div class="bioDiv"><!--Begin bio div-->
+                    <p> this is a test</p>
+                  </div><!--end bio div-->
+                  
               </div><!--End main image div-->
 
             </div><!--End fullscreenContainer div-->
