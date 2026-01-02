@@ -26,10 +26,14 @@ import { Main } from './main/main';
               </div> <!--End titleContainer div-->
               
               <div id="links" class="links"><!--Begin links div-->
-                <a href="https://github.com/powerrgav">Github</a> <!--Replace with image-->
-                <a href="https://www.linkedin.com/in/gavin-r-power">LinkedIn</a><!--Replace with image-->
+                <a href="https://github.com/powerrgav"><img src='/GithubLogo.png'></a> <!--Replace with image-->
+                <a href="https://www.linkedin.com/in/gavin-r-power"><img src='/LinkedInLogo.png'></a><!--Replace with image-->
               </div><!--End links div-->
-            
+
+              <div id="mainImage"><!--Begin main image div-->
+                  <a href="https://youtube.com" class="mainImageDiv">Placeholder</a>
+              </div><!--End main image div-->
+
             </div><!--End fullscreenContainer div-->
             `,
   styleUrl: './app.css'

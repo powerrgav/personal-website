@@ -11,14 +11,14 @@
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: xx-large;
-    animation:tracking-in-contract-bck-top 3s cubic-bezier(.215,.61,.355,1.000) both
+    animation:tracking-in-contract-bck-top 2s cubic-bezier(.215,.61,.355,1.000) both
 }
 .subHeaderText{
     display: flex;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
-    animation:tracking-in-contract-bck-top 3s cubic-bezier(.215,.61,.355,1.000) both
+    animation:tracking-in-contract-bck-top 2s cubic-bezier(.215,.61,.355,1.000) both
 }
 /*
     Styling for links div
@@ -30,6 +30,17 @@
     font-size: x-large;
   
 }
+
+/*
+    Styling for main image div
+*/
+.mainImageDiv{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
 /*Color palette subject to change. Ink wash. Early ideas:
     #4A4A4A , #CBCBCB , #FFFFE3 , #6D8196
 */
