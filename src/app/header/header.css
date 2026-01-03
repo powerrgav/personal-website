@@ -2,8 +2,31 @@ header{
     display: flex;
     padding-inline: 16px;
     padding-block: 8px;
-    background-color: #4A4A4A;
-    color: white;
+    background-color: white;
+    color: black;
     align-items: center;
     justify-content: space-between;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-family: "Consolas", monospace;
+    font-size: larger;
+}
+
+.navMenu{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.navMenu-portfolio{
+    text-decoration: none;
+    padding: 20px;
+}
+.navMenu-about{
+    text-decoration: none;
+    padding: 20px;
+}
+.navMenu-resume{
+    text-decoration: none;
+    padding: 20px;
 }

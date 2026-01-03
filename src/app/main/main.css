@@ -9,21 +9,20 @@
     padding-bottom: 1.5%;
     display: flex;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Consolas", monospace;
     font-size: xx-large;
     animation:tracking-in-contract-bck-top 2s cubic-bezier(.215,.61,.355,1.000) both
 }
 .subHeaderText{
     display: flex;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Consolas", monospace;
     font-size: x-large;
     animation:tracking-in-contract-bck-top 2s cubic-bezier(.215,.61,.355,1.000) both
 }
 
 .headerContainer{
     width: 100%;
-    background-color:#FFFFE3;
     color:#4A4A4A;
 }
 /*
@@ -32,18 +31,14 @@
 .links{
     display: flex;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large;
-  
 }
+
 
 /*
     Styling for main image div
 */
 .mainImageDiv{
     display:inline-flexblock;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large;
 }
 
 .meInParis{
@@ -56,10 +51,10 @@
     Styling for bio div
 */
 .bioDiv{
-    float: left;
-    margin-top: 15%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Consolas", monospace;
     font-size: x-large;
+    overflow-wrap: normal;
+    padding-top: 15%;
 }
 
 /*Color palette subject to change. Ink wash. Early ideas:
@@ -69,7 +64,6 @@
     flex: 1;
     height: 150vh;
     width: 100%;
-    background-color:#FFFFE3;
     color:#4A4A4A;
     
 }
