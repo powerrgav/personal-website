@@ -18,7 +18,7 @@ p{
 .subHeaderText{
     display: flex;
     justify-content: center;
-    font-size: x-large;
+    font-size: 1.5vw;
     animation:tracking-in-contract-bck-top 2s cubic-bezier(.215,.61,.355,1.000) both
 }
 
@@ -52,10 +52,10 @@ p{
     Styling for bio div
 */
 .bioDiv{
-    font-size: x-large;
+    font-size: 2vw;
     overflow-wrap: normal;
-    padding-top: 15%;
-    padding-bottom: 12.5%;
+    padding-top: 10%;
+    padding-bottom: 20%;
 }
 
 /*

@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
-import { Main } from './main/main';
 import { Header } from './header/header';
+import { RouterOutlet } from "@angular/router";
 
 
 
@@ -15,12 +15,10 @@ import { Header } from './header/header';
  */
 @Component({
   selector: 'app-root',
-  imports: [Main, Header],
+  imports: [Header, RouterOutlet],
   template: `
             <app-header />
-            <main>
-              <app-main />
-            </main>
+            <router-outlet> </router-outlet>
             `,
   styles:
   `
