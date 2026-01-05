@@ -4,19 +4,20 @@
 /*
     Basic text styling
 */
+p{
+    font-family: "Consolas", monospace;
+}
 .headerText{
     padding-top: 3%;
     padding-bottom: 1.5%;
     display: flex;
     justify-content: center;
-    font-family: "Consolas", monospace;
     font-size: xx-large;
     animation:tracking-in-contract-bck-top 2s cubic-bezier(.215,.61,.355,1.000) both
 }
 .subHeaderText{
     display: flex;
     justify-content: center;
-    font-family: "Consolas", monospace;
     font-size: x-large;
     animation:tracking-in-contract-bck-top 2s cubic-bezier(.215,.61,.355,1.000) both
 }
@@ -51,11 +52,22 @@
     Styling for bio div
 */
 .bioDiv{
-    font-family: "Consolas", monospace;
     font-size: x-large;
     overflow-wrap: normal;
     padding-top: 15%;
+    padding-bottom: 12.5%;
 }
+
+/*
+    Styling for showcased works
+*/
+.showcasedWorksDiv{
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+    padding-top: 5%;
+}
+
 
 /*Color palette subject to change. Ink wash. Early ideas:
     #4A4A4A , #CBCBCB , #FFFFE3 , #6D8196
