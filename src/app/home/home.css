@@ -1,12 +1,17 @@
-*{margin: 0;}
-
-
-/*
-    Basic text styling
-*/
-p{
+*{
+    margin: 0;
     font-family: "Consolas", monospace;
+    color: #4A4A4A;
 }
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+
 .headerText{
     padding-top: 3%;
     padding-bottom: 1.5%;
@@ -63,8 +68,10 @@ p{
 */
 .showcasedWorksDiv{
     display: flex;
+    flex-direction: column;
     font-size: xx-large;
     justify-content: center;
+    align-items: center;
     padding-top: 5%;
 }
 

@@ -11,7 +11,7 @@ import { RouterOutlet } from "@angular/router";
  * I want to have some buttons that link to my github, one to linkedin, and potentially another that links to a blog [done, but not blog]
  * I want to be able to scroll down and have the text and image animate away
  * On scroll down, animate image of me in Barcelona or Paris
- * Provides a detailed about me section, starting off with language skills (hence the picture)
+ * Provides a detailed about me section, starting off with language skills (hence the picture)[done]
  */
 @Component({
   selector: 'app-root',
