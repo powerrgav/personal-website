@@ -3,14 +3,9 @@
     font-family: "Consolas", monospace;
     color: #4A4A4A;
 }
-
-
-ul{
-    display: flex;
-    flex-direction: row;
+a{
     text-decoration: none;
 }
-
 
 .headerText{
     padding-top: 3%;
@@ -66,15 +61,18 @@ ul{
 /*
     Styling for showcased works
 */
-.showcasedWorksDiv{
-    display: flex;
-    flex-direction: column;
+.showcasedWorksWrapper{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: xx-large;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5%;
+    text-align: center;
 }
 
+.showcasedWorkBlock{
+    display: block;
+    margin-top: 40px;
+}
 
 /*Color palette subject to change. Ink wash. Early ideas:
     #4A4A4A , #CBCBCB , #FFFFE3 , #6D8196
