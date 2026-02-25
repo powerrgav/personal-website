@@ -44,8 +44,8 @@ a{
 
 .meInParis{
     float:left;
-   height: 40%;
-   width: 40%; 
+   height: 28%;
+   width: 28%; 
 }
 
 /*
@@ -67,6 +67,7 @@ a{
     margin-right: auto;
     font-size: xx-large;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .showcasedWorkBlock{
